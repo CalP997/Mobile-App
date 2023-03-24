@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TableRow>
+        <TextView
+            android:text="Your Weight (kg)"
+            android:width="120dp"/>
+        <EditText
+            android:id="@+id/txtWeight"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Your Height(cm)"
+            android:width="120dp"/>
+        <EditText
+            android:id="@+id/txtHeight"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Calculate"
+            android:width="120dp"/>
+    </TableRow>
+    <TableRow>
+        <ImageButton
+            android:id="@+id/buttonCalculate"
+            android:text="Log in"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Your BMI is: "
+            android:width="120dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Placeholder text for description"
+            android:width="120dp"/>
+    </TableRow>
+</TableLayout>
